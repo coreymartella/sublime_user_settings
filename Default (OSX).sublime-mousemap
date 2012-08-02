@@ -1,0 +1,11 @@
+[
+//restore alt+click for rectangular selection
+  {
+    "button": "button1", "modifiers": ["alt"],
+    "press_command": "drag_select",
+    "press_args": {"by": "columns"}
+  },
+
+//have goto symbol click as ctrl + alt + super
+  { "button": "button1", "modifiers": ["ctrl","alt","super"], "command": "goto_python_definition", "press_command": "drag_select" }
+]

@@ -1,3 +1,4 @@
 *.pyc
 *.tmLanguage.cache
 .DS_Store
+SublimeEvernote.sublime-settings

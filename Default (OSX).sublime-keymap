@@ -1,30 +1,20 @@
 [
     { "keys": ["super+ctrl+left"], "command": "move_text_left" },
     { "keys": ["super+ctrl+right"], "command": "move_text_right" },
-    { "keys": ["super+ctrl+up"], "command": "move_text_up" },
-    { "keys": ["super+ctrl+down"], "command": "move_text_down" },
-    // { "keys": ["escape"], "command": "alternative_autocomplete", "context":
-    //   [
-    //     { "key": "num_selections", "operator": "equal", "operand": 1 },
-    //     { "key": "overlay_visible", "operator": "equal", "operand": false },
-    //     { "key": "panel_visible", "operator": "equal", "operand": false },
-    //     { "key": "has_prev_field", "operator": "equal", "operand": false },
-    //     { "key": "has_next_field", "operator": "equal", "operand": false }
-    //   ]
-    // },
-    // { "keys": ["shift+escape"], "command": "alternative_autocomplete", "args": {"cycle": "previous"}, "context":
-    //   [
-    //     { "key": "num_selections", "operator": "equal", "operand": 1 },
-    //     { "key": "overlay_visible", "operator": "equal", "operand": false },
-    //     { "key": "panel_visible", "operator": "equal", "operand": false },
-    //     { "key": "has_prev_field", "operator": "equal", "operand": false },
-    //     { "key": "has_next_field", "operator": "equal", "operand": false }
-    //   ]
-    // },
-
+    //use MoveText if theres a selection
+    { "keys": ["super+ctrl+up"], "command": "move_text_up", "context": [{ "key": "selection_empty", "operator": "equal", "operand": false}]},
+    { "keys": ["super+ctrl+down"], "command": "move_text_down", "context": [{ "key": "selection_empty", "operator": "equal", "operand": false}]},
+    //Use Swap if theres not
+    { "keys": ["super+ctrl+up"], "command": "swap_line_up", "context": [{ "key": "selection_empty", "operator": "equal", "operand": true}]},
+    { "keys": ["super+ctrl+down"], "command": "swap_line_down", "context": [{ "key": "selection_empty", "operator": "equal", "operand": true}]},
+    //Preview markdown shortcut
+    { "keys": ["super+ctrl+p"], "command": "markdown_preview", "args": {"target": "browser"}, "context": [{ "key": "selector", "operator": "equal", "operand": "text.html.markdown" }]},
+    // restart passenger
     { "keys": ["ctrl+shift+r"], "command": "restart_passenger" },
     { "keys": ["ctrl+shift+v"], "command": "verify_ruby_file" },
+    //This one is a work in progress, idea is if you have your cursor like so:   include Application<CURSOR>Helper it would automatically open ApplicationHelper
     { "keys": ["super+o"], "command": "open_filename_under_cursor" },
+    //Shorcut for Simple Rails Navigator
     { "keys": ["super+ctrl+m"], "command": "list_rails_models" },
     { "keys": ["super+ctrl+c"], "command": "list_rails_controllers" },
     { "keys": ["super+ctrl+v"], "command": "list_rails_views" },
@@ -40,22 +30,15 @@
     {"keys": ["ctrl+j"], "command": "insert_snippet", "args": {"name": "Packages/User/rails-session.sublime-snippet"}},
 
     //FROM https://github.com/neilsarkar/sublime_user_directory/blob/master/Default%20(OSX).sublime-keymap
-    // copy file name
+    //copy file name
     {"keys": ["super+shift+c"],"command": "copy_path_to_clipboard"},
 
     // ctags 
     {"keys": ["ctrl+]"],"command": "navigate_to_definition"},
     // close all other tabs
     {"keys": ["super+ctrl+w"],"command": "close_other_tabs"},
-    {
-        "keys": ["super+shift+t"],
-        "command": "show_overlay",
-        "args": {"overlay": "goto", "text": "@"}
-    },
+    //goto symbol in file (method definition)
+    {"keys": ["super+shift+t"], "command": "show_overlay","args": {"overlay": "goto", "text": "@"}},
     // find and replace by default
-    {
-      "keys": ["super+f"],
-     "command": "show_panel",
-     "args": {"panel": "replace"}
-    }
+    {"keys": ["super+f"],"command": "show_panel","args": {"panel": "replace"}}
 ]
