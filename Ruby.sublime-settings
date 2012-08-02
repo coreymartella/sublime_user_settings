@@ -1,0 +1,14 @@
+{
+  "extensions":
+  [
+    "rb",
+    "ru",
+    "Gemfile",
+    "Rakefile"
+  ],
+  "rulers":
+  [
+    80
+  ],
+  "tab_size": 2
+}
