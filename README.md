@@ -58,3 +58,103 @@ open the User package and checkout ```Default (OSX).sublime-keymap``` and ```Def
 
     cd ~/Library/Application Support/Sublime Text 2/Packages/User
     subl .
+
+
+Sublime Text 2 - Useful Shortcuts (Mac OS X)
+============================================
+
+Shameless plucked from [https://gist.github.com/1207002](https://gist.github.com/1207002) I've overridden some of these to be more like TM defaults, will try to update them at some point. I haven't tried/verified all of these so if you find a mismatch update this file and push!
+
+General
+-------
+
+  <table>
+  <tr><td>**⌘T**     </td><td>go to file</td></tr>
+  <tr><td>**⌘⌃P**    </td><td>go to project</td></tr>
+  <tr><td>**⌘R**     </td><td>go to methods</td></tr>
+  <tr><td>**⌃G**     </td><td>go to line</td></tr>
+  <tr><td>**⌘KB**    </td><td>toggle side bar</td></tr>
+  <tr><td>**⌘⇧P**    </td><td>command prompt</td></tr>
+  <tr><td>**⌃ \`**   </td><td>python console</td></tr>
+  <tr><td>**⌘⇧N**    </td><td>new window (useful for new project)</td></tr>
+  </table>
+
+Editing
+-------
+
+  <table>
+  <tr><td>**⌘L**        </td><td>select line (repeat select next lines)</td></tr>
+  <tr><td>**⌘D**        </td><td>select word (repeat select others occurrences in context for multiple editing)</td></tr>
+  <tr><td>**⌃⇧M**       </td><td>select content into brackets</td></tr>
+  <tr><td>**⌘⇧↩**       </td><td>insert line before</td></tr>
+  <tr><td>**⌘↩**        </td><td>inter line after</td></tr>
+  <tr><td>**⌃⇧K**       </td><td>delete line</td></tr>
+  <tr><td>**⌘KK**       </td><td>delete from cursor to end of line</td></tr>
+  <tr><td>**⌘K⌫**       </td><td>delete from cursor to start of line</td></tr>
+  <tr><td>**⌘⇧D**       </td><td>duplicate line(s)</td></tr>
+  <tr><td>**⌘J**        </td><td>join lines</td></tr>
+  <tr><td>**⌘KU**       </td><td>upper case</td></tr>
+  <tr><td>**⌘KL**       </td><td>lower case</td></tr>
+  <tr><td>**⌘ /**       </td><td>comment</td></tr>
+  <tr><td>**⌘⌥ /**      </td><td>block comment</td></tr>
+  <tr><td>**⌘Y**        </td><td>redo or repeat</td></tr>
+  <tr><td>**⌘⇧V**       </td><td>past and ident</td></tr>
+  <tr><td>**⌃ space**   </td><td>autocomplete (repeat to select next suggestion)</td></tr>
+  <tr><td>**⌃M**        </td><td>jump to matching brackets</td></tr>
+  <tr><td>**⌘U**        </td><td>soft undo (movement undo)</td></tr>
+  <tr><td>**⌘⇧U**       </td><td>soft redo (movement redo)</td></tr>
+  </table>
+
+XML/HTML
+--------
+
+  <table>
+  <tr><td>**⌘⇧A**    </td><td>select content into tag</td></tr>
+  <tr><td>**⌘⌥ .**   </td><td>close tag</td></tr>
+  </table>
+
+Find/Replace
+------------
+
+  <table>
+  <tr><td>**⌘F**    </td><td>find</td></tr>
+  <tr><td>**⌘⌥F**   </td><td>replace</td></tr>
+  <tr><td>**⌘⌥G**   </td><td>find next occurrence of current word</td></tr>
+  <tr><td>**⌘⌃G**   </td><td>select all occurrences of current word for multiple editing</td></tr>
+  <tr><td>**⌘⇧F**   </td><td>find in files</td></tr>
+  </table>
+
+Splits/Tabs
+-----------
+
+  <table>
+  <tr><td>**⌘⌥1**           </td><td>single column</td></tr>
+  <tr><td>**⌘⌥2**           </td><td>two columns</td></tr>
+  <tr><td>**⌘⌥5**           </td><td>grid (4 groups)</td></tr>
+  <tr><td>**⌃[1,2,3,4]**    </td><td>focus group</td></tr>
+  <tr><td>**⌃⇧[1,2,3,4]**   </td><td>move file to group</td></tr>
+  <tr><td>**⌘[1,2,3…]**     </td><td>select tab</td></tr>
+  </table>
+
+Bookmarks
+---------
+
+  <table>
+  <tr><td>**⌘F2**    </td><td>toggle bookmark</td></tr>
+  <tr><td>**F2**     </td><td>next bookmark</td></tr>
+  <tr><td>**⇧F2**    </td><td>previous bookmark</td></tr>
+  <tr><td>**⌘⇧F2**   </td><td>clear bookmarks</td></tr>
+  </table>
+
+Marks
+-----
+
+  <table>
+  <tr><td>**⌘K space**   </td><td>set mark</td></tr>
+  <tr><td>**⌘KW**        </td><td>delete from cursor to mark</td></tr>
+  <tr><td>**⌘KA**        </td><td>select from cursor to mark</td></tr>
+  <tr><td>**⌘KG**        </td><td>clear mark</td></tr>
+  </table>
+
+
+
