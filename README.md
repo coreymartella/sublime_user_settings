@@ -4,7 +4,7 @@
 
 This repo is setup to replace your "User" package, if you want it to live elsewhere just change the clone desintation
 
-    cd ~/Library/Application Support/Sublime Text 2/Packages
+    cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
     mv User User_original
     git clone git@github.com:coreymartella/sublime_user_settings.git User
 
@@ -56,7 +56,7 @@ If you want to know what more about any of these google for "sublime <PACKAGE NA
 
 open the User package and checkout ```Default (OSX).sublime-keymap``` and ```Default (OSX).sublime-mousemap``` for what customizations have been done
 
-    cd ~/Library/Application Support/Sublime Text 2/Packages/User
+    cd ~/Library/Application\ Support/Sublime\ Text 2/Packages/User
     subl .
 
 
