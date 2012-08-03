@@ -28,6 +28,7 @@
     { "keys": ["ctrl+shift+`"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
     {"keys": ["ctrl+p"], "command": "insert_snippet", "args": {"name": "Packages/User/rails-params.sublime-snippet"}},
     {"keys": ["ctrl+j"], "command": "insert_snippet", "args": {"name": "Packages/User/rails-session.sublime-snippet"}},
+    {"keys": ["ctrl+o"], "command": "insert_snippet", "args": {"name": "Packages/User/rails-options.sublime-snippet"}},
 
     //FROM https://github.com/neilsarkar/sublime_user_directory/blob/master/Default%20(OSX).sublime-keymap
     //copy file name

@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
-params[${1::${2:id}]
+options[:${1:$SELECTION}]$0
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>p</tabTrigger>
+  <tabTrigger>options</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <!-- <scope>source.ruby</scope> -->
 </snippet>
