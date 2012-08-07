@@ -32,6 +32,7 @@
     {"keys": ["ctrl+p"], "command": "insert_snippet", "args": {"name": "Packages/User/rails-params.sublime-snippet"}},
     {"keys": ["ctrl+j"], "command": "insert_snippet", "args": {"name": "Packages/User/rails-session.sublime-snippet"}},
     {"keys": ["ctrl+o"], "command": "insert_snippet", "args": {"name": "Packages/User/rails-options.sublime-snippet"}},
+    {"keys": ["ctrl+l"], "command": "insert_snippet", "args": {"name": "Packages/User/ruby-hashrocket.sublime-snippet"}},
     //shortcut to toggle the sidebar
     { "keys": ["ctrl+alt+super+d"], "command": "toggle_side_bar" },
     //FROM https://github.com/neilsarkar/sublime_user_directory/blob/master/Default%20(OSX).sublime-keymap
