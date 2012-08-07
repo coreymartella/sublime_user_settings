@@ -24,7 +24,9 @@
     { "keys": ["super+ctrl+i"], "command": "list_rails_javascripts" },
     { "keys": ["super+ctrl+y"], "command": "list_rails_stylesheets" },
     { "keys": ["super+t"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-    { "keys": ["shift+super+t"], "command": "open_related" },
+
+    { "keys": ["super+shift+o"], "command": "rails_related_files", "args": {"index": -1 }},
+    
     { "keys": ["ctrl+shift+`"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
     //short cuts for common rails hashes (params, session and options)
     {"keys": ["ctrl+p"], "command": "insert_snippet", "args": {"name": "Packages/User/rails-params.sublime-snippet"}},
@@ -39,9 +41,15 @@
     // ctags 
     {"keys": ["ctrl+]"],"command": "navigate_to_definition"},
     // close all other tabs
-    {"keys": ["super+ctrl+w"],"command": "close_other_tabs"},
+    {"keys": ["ctrl+super+w"],"command": "close_other_tabs"},
     //goto symbol in file (method definition)
-    {"keys": ["super+shift+t"], "command": "show_overlay","args": {"overlay": "goto", "text": "@"}},
+    {"keys": ["shift+super+t"], "command": "show_overlay","args": {"overlay": "goto", "text": "@"}},
     // find and replace by default
     {"keys": ["super+f"],"command": "show_panel","args": {"panel": "replace"}}
+
+    //Expand selections
+    // {"keys": ["ctrl+alt+super+space"], "command": "expand_selection", "args": {"to": "scope"}}
+    // { "command": "expand_selection", "args": {"to": "brackets"}},
+    // { "command": "expand_selection", "args": {"to": "indentation"}},
+
 ]
