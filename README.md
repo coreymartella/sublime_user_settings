@@ -2,7 +2,7 @@
 
 ## Clone the repo
 
-This repo is setup to replace your "User" package, if you want it to live elsewhere just change the clone desintation
+This repo is setup to replace your "User" package, if you want it to live elsewhere just change the clone desintation HELLO
 
     cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
     mv User User_original
@@ -27,7 +27,7 @@ Once this is installed you can use it for most of the items below.
 
 I've ordered these by some level of priority/value to me but they all have proved handy so far. 
 
-* LiveReload - Also install the [chrome extension](https://chrome.google.com/webstore/detail/jnihajbhpnppcggbcgedagnkighmdlei) makes rails dev even faster.
+* LiveReload - Also install the [chrome extension](https://chrome.google.com/webstore/detail/jnihajbhpnppcggbcgedagnkighmdlei) makes rails dev even faster. __I also changed this to run on port [35730](#livereload_port_change) instead of 35729 due to a conflict with git__
 * SublimeLinter - inline code validation/syntax checking
 * ClipboardHistory - Reinstate the ⌃⌥⌘V shortcut for pasting from history
 * Live CSS - show colors inline in css files
@@ -58,6 +58,16 @@ open the User package and checkout ```Default (OSX).sublime-keymap``` and ```Def
 
     cd ~/Library/Application\ Support/Sublime\ Text 2/Packages/User
     subl .
+
+## Live Reload Port Change<a id='livereload_port_change' name='livereload_port_change'></a>
+Due to a conflict with git i had to change from port 35729 to 35730 for livereload to work. You might be able to do without this.
+
+  * Edit the LiveReload Settings file: ```subl ~/Library/Application\ Support/Sublime\ Text 2/Packages/LiveReload/LiveReload.sublime-settings```
+  * Change the "port" value to 35730
+  * Save, quit and restart sublime
+  * Right click the "LR" toolbar button in chrome and select "Options"
+  * Change the port in the options to 35730
+  * Quit and restart chrome
 
 
 Sublime Text 2 - Useful Shortcuts (Mac OS X)

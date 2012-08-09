@@ -12,8 +12,6 @@
     // restart passenger
     { "keys": ["ctrl+shift+r"], "command": "restart_passenger" },
     { "keys": ["ctrl+shift+v"], "command": "verify_ruby_file" },
-    //This one is a work in progress, idea is if you have your cursor like so:   include Application<CURSOR>Helper it would automatically open ApplicationHelper
-    { "keys": ["super+o"], "command": "open_filename_under_cursor" },
     //Shorcut for Simple Rails Navigator
     { "keys": ["super+ctrl+m"], "command": "list_rails_models" },
     { "keys": ["super+ctrl+c"], "command": "list_rails_controllers" },
@@ -25,7 +23,10 @@
     { "keys": ["super+ctrl+y"], "command": "list_rails_stylesheets" },
     { "keys": ["super+t"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 
+    //This one is a work in progress, idea is if you have your cursor like so:   include Application<CURSOR>Helper it would automatically open ApplicationHelper
+    // { "keys": ["super+o"], "command": "open_filename_under_cursor" },
     { "keys": ["super+shift+o"], "command": "rails_related_files", "args": {"index": -1 }},
+    { "keys": ["super+o"], "command": "rails_related_files", "args": {"index": -1 }},
     
     { "keys": ["ctrl+shift+`"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
     //short cuts for common rails hashes (params, session and options)
@@ -46,11 +47,12 @@
     //goto symbol in file (method definition)
     {"keys": ["shift+super+t"], "command": "show_overlay","args": {"overlay": "goto", "text": "@"}},
     // find and replace by default
-    {"keys": ["super+f"],"command": "show_panel","args": {"panel": "replace"}}
+    {"keys": ["super+f"],"command": "show_panel","args": {"panel": "replace"}},
 
     //Expand selections
     // {"keys": ["ctrl+alt+super+space"], "command": "expand_selection", "args": {"to": "scope"}}
     // { "command": "expand_selection", "args": {"to": "brackets"}},
     // { "command": "expand_selection", "args": {"to": "indentation"}},
-
+    //EVAL selection
+    {"keys": ["ctrl+alt+super+e"], "command": "evalsel"}
 ]
