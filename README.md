@@ -74,7 +74,7 @@ Due to a conflict with git i had to change from port 35729 to 35730 for liverelo
 Sublime Text 2 - Useful Shortcuts (Mac OS X)
 ============================================
 
-Shameless plucked from [https://gist.github.com/1207002](https://gist.github.com/1207002) I've overridden some of these to be more like TM defaults, will try to update them at some point. I haven't tried/verified all of these so if you find a mismatch update this file and push!
+Shamelessly plucked from [https://gist.github.com/1207002](https://gist.github.com/1207002) I've overridden some of these to be more like TM defaults, will try to update them at some point. I haven't tried/verified all of these so if you find a mismatch update this file and push!
 
 General
 -------
