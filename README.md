@@ -59,7 +59,8 @@ open the User package and checkout ```Default (OSX).sublime-keymap``` and ```Def
     cd ~/Library/Application\ Support/Sublime\ Text 2/Packages/User
     subl .
 
-## Live Reload Port Change<a id='livereload_port_change' name='livereload_port_change'></a>
+<a id='livereload_port_change' name='livereload_port_change'></a>
+## Live Reload Port Change
 Due to a conflict with git i had to change from port 35729 to 35730 for livereload to work. You might be able to do without this.
 
   * Edit the LiveReload Settings file: ```subl ~/Library/Application\ Support/Sublime\ Text 2/Packages/LiveReload/LiveReload.sublime-settings```
