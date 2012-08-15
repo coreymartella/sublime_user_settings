@@ -1,12 +1,14 @@
 {
-	"auto_upgrade_last_run": 1344458888,
+	"auto_upgrade_last_run": 1345039896,
 	"installed_packages":
 	[
 		"alternative_autocompletion",
 		"Close Oldest File",
 		"Color Highlighter",
 		"ColorPicker",
+		"CTags",
 		"DashDoc",
+		"ERB Insert and Toggle Commands",
 		"Eval Sel",
 		"Git",
 		"Hasher",

@@ -19,6 +19,12 @@ This repo is setup to replace your "User" package, if you want it to live elsewh
 * Launch RCDefaultApp.prefpane and tell it that txmt links should be opened with SublHandler
 ![Extension Handler](https://img.skitch.com/20120802-t4kh82g8qfmi9admuecs6u1dgy.jpg)
 
+## CTags
+
+* Install ctags: ```brew install ctags```
+* Generate the tags for your project: ```ctags -R -f .tags```
+* Add the .tags to your git ignore ```echo -e "\n/.tags\n" >> .gitignore```
+
 ## Install the packages
 
 * __[Package Control](http://wbond.net/sublime_packages/package_control/installation)__
@@ -42,7 +48,7 @@ I've ordered these by some level of priority/value to me but they all have prove
 * SideBarEnhancements - lots of content menu items for the sidebar
 * SyncedSidebar - keep the sidebar in sync with the open buffer
 * TidyJSON - Json formatter
-* SublimeCodeIntel - better autocompletion
+* CTags - Ctags integration
 * SuperCalculator - evaluate and replace math expressions
 * ExtremeCSS - mimics mCSS from TextMate
 * mSASS - mimics mSASS from TextMate
