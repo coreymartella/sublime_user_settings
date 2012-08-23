@@ -1,4 +1,6 @@
 [
+    { "keys": ["alt+super+f"], "command": "replace_all", "args": {"close_panel": true}
+    },
     { "keys": ["super+ctrl+left"], "command": "move_text_left" },
     { "keys": ["super+ctrl+right"], "command": "move_text_right" },
     //use MoveText if theres a selection
@@ -37,8 +39,11 @@
     {"keys": ["ctrl+l"], "command": "insert_snippet", "args": {"name": "Packages/User/ruby-hashrocket.sublime-snippet"}},
     {"keys": ["ctrl+z"], "command": "insert_snippet", "args": {"name": "Packages/User/erb-output.sublime-snippet"}},
     {"keys": ["ctrl+x"], "command": "insert_snippet", "args": {"name": "Packages/User/erb-command.sublime-snippet"}},
+    { "keys": ["ctrl+shift+w"], "command": "insert_snippet", "args": {"name": "Packages/Ruby/Wrap-in-Begin-Rescue-End.sublime-snippet"}, "context": [{ "key": "selector", "operator": "equal", "operand": "source.ruby", "match_all": true }]},
+
     //shortcut to toggle the sidebar
     { "keys": ["ctrl+alt+super+d"], "command": "toggle_side_bar" },
+    { "keys": ["shift+super+m"], "command": "side_bar_move" },
     //FROM https://github.com/neilsarkar/sublime_user_directory/blob/master/Default%20(OSX).sublime-keymap
     //copy file name
     {"keys": ["super+shift+c"],"command": "copy_path_to_clipboard"},
@@ -47,6 +52,8 @@
     {"keys": ["ctrl+]"],"command": "navigate_to_definition"},
     // close all other tabs
     {"keys": ["ctrl+super+w"],"command": "close_other_tabs"},
+    // close all other tabs
+    {"keys": ["shift+super+w"],"command": "close_window"},
     //goto symbol in file (method definition)
     {"keys": ["shift+super+t"], "command": "show_overlay","args": {"overlay": "goto", "text": "@"}},
     // find and replace by default
@@ -57,5 +64,8 @@
     // { "command": "expand_selection", "args": {"to": "brackets"}},
     // { "command": "expand_selection", "args": {"to": "indentation"}},
     //EVAL selection
-    {"keys": ["ctrl+alt+super+e"], "command": "evalsel"}
+    {"keys": ["ctrl+alt+super+e"], "command": "evalsel"},
+
+    //Git shortcuts
+    {"keys": ["ctrl+shift+g"], "command": "git_fileurl"}
 ]

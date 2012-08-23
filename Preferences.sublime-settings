@@ -1,5 +1,6 @@
 {
-	"auto_complete": false,
+	"auto_complete": true,
+	"auto_complete_triggers": [ {"selector": "text.html", "characters": "<="}], 
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"font_size": 13.0,
 	"ignored_packages":
@@ -8,5 +9,9 @@
 	],
 	"reveal-on-activate": false,
 	"tabSize": 2,
-	"translateTabsToSpaces": true
+	"translateTabsToSpaces": true,
+	"file_exclude_patterns": [
+        ".tags",
+        ".tags_sorted_by_file", "log", ".bz2", ".dat", ".gz", ".tgz"
+    ]
 }

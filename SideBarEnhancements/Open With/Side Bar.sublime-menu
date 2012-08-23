@@ -1,0 +1,20 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+
+			//application 1
+			{
+				"caption": "Preview",
+				"id": "side-bar-files-open-with-photoshop",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Preview.app", // OSX
+									"extensions":"png|jpg|jpeg"  //any file with these extensions
+								}
+			}
+		]
+	}
+]

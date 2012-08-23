@@ -1,6 +1,9 @@
 {
 	"extensions":
 	[
-		"rb"
+		"rb",
+    "Gemfile",
+    "Gemfile.lock",
+		"rabl"
 	]
 }

@@ -1,11 +1,14 @@
 {
-	"auto_upgrade_last_run": 1345039896,
+	"auto_upgrade_last_run": 1345694055,
 	"installed_packages":
 	[
 		"alternative_autocompletion",
 		"Close Oldest File",
+		"CoffeeCompile",
+		"CoffeeScript",
 		"Color Highlighter",
 		"ColorPicker",
+		"CSV",
 		"CTags",
 		"DashDoc",
 		"ERB Insert and Toggle Commands",
@@ -32,12 +35,12 @@
 		"SideBarEnhancements",
 		"SideBarGit",
 		"Simple Rails Navigator",
-		"SublimeCodeIntel",
 		"SublimeEvernote",
 		"Super Calculator",
 		"SyncedSideBar",
 		"Terminal",
 		"TidyJSON",
-		"Toggle Symbol to String"
+		"Toggle Symbol to String",
+		"ZenCoding"
 	]
 }

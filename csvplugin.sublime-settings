@@ -1,0 +1,9 @@
+{
+	"csv_per_file_setting":
+	[
+		{
+			"file": "/Users/cmartella/Sites/MobileEconomyServer/db/seed_hwf_products.csv",
+			"use_header": true
+		}
+	]
+}
