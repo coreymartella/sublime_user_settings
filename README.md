@@ -14,7 +14,7 @@ This repo is setup to replace your "User" package, if you want it to live elsewh
 
 ## make rails-footnotes links open with sublime:
 
-* Download and install [SublHandler.app](https://github.com/hiddenbek/subl-handler/downloads)
+* Copy SublHandler.app from the User dir to your apps: `cp ~/Library/Application\ Support/Sublime/Packages/User/SublHandler.app /Applications/`
 * Download and install [RCDefaultApp.prefpane](http://www.rubicode.com/Software/RCDefaultApp/)
 * Launch RCDefaultApp.prefpane and tell it that txmt links should be opened with SublHandler
 ![Extension Handler](https://img.skitch.com/20120802-t4kh82g8qfmi9admuecs6u1dgy.jpg)
