@@ -22,7 +22,8 @@ This repo is setup to replace your "User" package, if you want it to live elsewh
 ## CTags
 
 * Install ctags: ```brew install ctags```
-* Generate the tags for your project: ```ctags -R -f .tags```
+* Goto the directory of your application: ```cd ~/Sites/MobileEconomyServer #Or wherever the project is```
+* Generate the tags for your project: ```/usr/local/bin/ctags -R -f .tags```
 * Add the .tags to your git ignore ```echo -e "\n/.tags\n" >> .gitignore```
 
 ## Install the packages
@@ -62,14 +63,14 @@ If you want to know what more about any of these google for "sublime <PACKAGE NA
 
 open the User package and checkout ```Default (OSX).sublime-keymap``` and ```Default (OSX).sublime-mousemap``` for what customizations have been done
 
-    cd ~/Library/Application\ Support/Sublime\ Text 2/Packages/User
+    cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
     subl .
 
 <a id='livereload_port_change' name='livereload_port_change'></a>
 ## Live Reload Port Change
 Due to a conflict with git i had to change from port 35729 to 35730 for livereload to work. You might be able to do without this.
 
-  * Edit the LiveReload Settings file: ```subl ~/Library/Application\ Support/Sublime\ Text 2/Packages/LiveReload/LiveReload.sublime-settings```
+  * Edit the LiveReload Settings file: ```subl ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/LiveReload/LiveReload.sublime-settings```
   * Change the "port" value to 35730
   * Save, quit and restart sublime
   * Right click the "LR" toolbar button in chrome and select "Options"

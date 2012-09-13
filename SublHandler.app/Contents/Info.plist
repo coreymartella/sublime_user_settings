@@ -28,6 +28,14 @@
 				<string>subl</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>org.unknownplace.sublhandler</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>txmt</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
