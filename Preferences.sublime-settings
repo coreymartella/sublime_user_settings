@@ -1,17 +1,29 @@
 {
 	"auto_complete": true,
-	"auto_complete_triggers": [ {"selector": "text.html", "characters": "<="}], 
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<=",
+			"selector": "text.html"
+		}
+	],
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
-	"font_size": 13.0,
+	"file_exclude_patterns":
+	[
+		".tags",
+		".tags_sorted_by_file",
+		"log",
+		".bz2",
+		".dat",
+		".gz",
+		".tgz"
+	],
+	"font_size": 21.0,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"reveal-on-activate": false,
 	"tabSize": 2,
-	"translateTabsToSpaces": true,
-	"file_exclude_patterns": [
-        ".tags",
-        ".tags_sorted_by_file", "log", ".bz2", ".dat", ".gz", ".tgz"
-    ]
+	"translateTabsToSpaces": true
 }

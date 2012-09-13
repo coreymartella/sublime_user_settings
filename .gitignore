@@ -2,5 +2,4 @@
 *.tmLanguage.cache
 .DS_Store
 SublimeEvernote.sublime-settings
-
 Package Control.sublime-settings

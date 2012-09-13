@@ -11,7 +11,7 @@
     { "keys": ["super+ctrl+down"], "command": "swap_line_down", "context": [{ "key": "selection_empty", "operator": "equal", "operand": true}]},
     //Preview markdown shortcut
     { "keys": ["super+ctrl+p"], "command": "markdown_preview", "args": {"target": "browser"}, "context": [{ "key": "selector", "operator": "equal", "operand": "text.html.markdown" }]},
-    // restart passenger
+    // restart passenger 
     { "keys": ["ctrl+shift+r"], "command": "restart_passenger" },
     { "keys": ["ctrl+shift+v"], "command": "verify_ruby_file" },
     //Shorcut for Simple Rails Navigator
@@ -26,8 +26,9 @@
     { "keys": ["super+t"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 
     //This one is a work in progress, idea is if you have your cursor like so:   include Application<CURSOR>Helper it would automatically open ApplicationHelper
-    // { "keys": ["super+o"], "command": "open_filename_under_cursor" },
-    { "keys": ["super+shift+o"], "command": "rails_related_files", "args": {"index": -1 }},
+    // { "keys": ["alt+o"], "command": "open_filename_under_cursor" },
+    // { "keys": ["alt+o"], "command": "OpenInclude" },
+    { "keys": ["super+shift+o"], "command": "open_filename_under_cursor"},
     { "keys": ["super+o"], "command": "rails_related_files", "args": {"index": -1 }},
     
     { "keys": ["ctrl+shift+`"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
