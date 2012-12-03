@@ -8,17 +8,33 @@
 		}
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
 		".tags",
 		".tags_sorted_by_file",
-		"log",
-		".bz2",
-		".dat",
-		".gz",
-		".tgz"
+		"*.log",
+		"*.bz2",
+		"*.dat",
+		"*.gz",
+		"*.tgz",
+		"*coverage*"
 	],
-	"font_size": 19.0,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git/objects",
+		".git/refs",
+		".git/logs",
+		".git/index",
+		"coverage",
+		"log",
+		"tmp",
+		"db/backups",
+		"db/seed_hwf"
+	],
+	"font_face": "Source Code Pro",
+	"font_size": 13.0,
 	"ignored_packages":
 	[
 		"Vintage"
