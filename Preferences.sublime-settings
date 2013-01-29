@@ -34,7 +34,8 @@
 		"log",
 		"tmp",
 		"db/backups",
-		"db/seed_hwf"
+		"db/seed_hwf",
+		"public/assets"
 	],
 	"font_face": "Source Code Pro",
 	"font_size": 14.0,
