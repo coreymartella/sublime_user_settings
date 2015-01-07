@@ -7,7 +7,8 @@
 			"selector": "text.html"
 		}
 	],
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+	"color_scheme": "Packages/User/Solarized (Light) (SL).tmTheme",
+	"detect_indentation": false,
 	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
@@ -38,10 +39,10 @@
 		"public/assets"
 	],
 	"font_face": "Source Code Pro",
+	"font_size": 12.0,
 	"ignored_packages":
 	[
-		"Vintage",
-		"SublimeLinter"
+		"Vintage"
 	],
 	"reveal_on_activate": false,
 	"show_full_path": true,

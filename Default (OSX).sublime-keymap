@@ -1,6 +1,6 @@
 [
-    { "keys": ["alt+super+f"], "command": "replace_all", "args": {"close_panel": true}
-    },
+    { "keys": ["alt+super+f"], "command": "replace_all", "args": {"close_panel": true}},
+
     { "keys": ["super+ctrl+left"], "command": "move_text_left" },
     { "keys": ["super+ctrl+right"], "command": "move_text_right" },
     //use MoveText if theres a selection
@@ -9,7 +9,7 @@
     //Use Swap if theres not
     { "keys": ["super+ctrl+up"], "command": "swap_line_up", "context": [{ "key": "selection_empty", "operator": "equal", "operand": true}]},
     { "keys": ["super+ctrl+down"], "command": "swap_line_down", "context": [{ "key": "selection_empty", "operator": "equal", "operand": true}]},
-    //Preview markdown shortcut
+    //Preview markdown shortcuts
     { "keys": ["super+ctrl+p"], "command": "markdown_preview", "args": {"target": "browser"}, "context": [{ "key": "selector", "operator": "equal", "operand": "text.html.markdown" }]},
     // restart passenger 
     { "keys": ["ctrl+shift+r"], "command": "restart_passenger" },
@@ -29,6 +29,7 @@
     // { "keys": ["alt+o"], "command": "open_filename_under_cursor" },
     // { "keys": ["alt+o"], "command": "OpenInclude" },
     {"keys": ["shift+super+o"], "command": "goto_selection"},
+    { "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
     // { "keys": ["super+shift+o"], "command": "open_filename_under_cursor"},
     { "keys": ["super+o"], "command": "rails_related_files", "args": {"index": -1 }},
     
@@ -46,6 +47,7 @@
     //shortcut to toggle the sidebar
     { "keys": ["ctrl+alt+super+d"], "command": "toggle_side_bar" },
     { "keys": ["shift+super+m"], "command": "side_bar_move" },
+    { "keys": ["super+ctrl+r"], "command": "reveal_in_side_bar" },
     //FROM https://github.com/neilsarkar/sublime_user_directory/blob/master/Default%20(OSX).sublime-keymap
     //copy file name
     {"keys": ["super+shift+c"],"command": "copy_path_to_clipboard"},
