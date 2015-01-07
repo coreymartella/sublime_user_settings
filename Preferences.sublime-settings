@@ -38,13 +38,13 @@
 		"public/assets"
 	],
 	"font_face": "Source Code Pro",
-	"font_size": 14.0,
 	"ignored_packages":
 	[
 		"Vintage",
 		"SublimeLinter"
 	],
-	"reveal-on-activate": false,
-	"tabSize": 2,
-	"translateTabsToSpaces": true
+	"reveal_on_activate": false,
+	"show_full_path": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true
 }
